@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0e1217;
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #182029;
+}
+
+th, td {
+    border: 1px solid #262f3a;
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th[colspan="2"] {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    width: auto;
+    background-color: #160A00;
+    align-items: center;
+    background: #262f3a;
+    filter: drop-shadow(0 0 5.6px #183D3D); /*brilho em volta*/
+    border-radius: 15px;
+    top: 20px;
+    margin: 20px;
+    padding: 17px;
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    padding: 10px;
+    left: 60px;
+    align-items: center;
+    position: relative;
+    color: #3e4c5c;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ee5961;
+}
+
+.menu li a:hover {
+    color: #b6484f;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 0.6px;
+}
+
+.vava {
+    margin: 0 auto;
+    width: 80px;
+    height: auto;
+}
+
+.postervava {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+}
+
+.agentes {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.inf {
+    width: 40%;
+}
+
+.inf ul {
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.jogo {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.jogo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    font-size: 1.8em;
+    color: #ee5961;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 1.6em;
+    color: #ee5961;
+}
+
+h4 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #b6484f;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+a {
+    color: #ee5961;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
