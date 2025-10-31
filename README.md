@@ -36,7 +36,15 @@
 ---
 
 ### Como visualizar 
- Acesse o link para visualizar o projeto: https://s4naju.github.io/valorantwiki.github.io/ 
+
+Você pode visualizar o projeto de duas formas:
+
+1. Acesso online:  https://s4naju.github.io/valorantwiki.github.io/ 
+
+2. Acesso local: 
+- Baixe o  repositório.
+- Abra a pasta do projeto no seu computador.
+- Dê um duplo clique no arquivo *`index.html`* para abrir no navegador.
  
 ---
 
